@@ -53,7 +53,7 @@
 
 ## 🔒 Security & Privacy
 
-- **Device fingerprinting** (canvas + WebGL + random salt) ensures each key works only on one device.
+- **Device fingerprinting** (canvas + WebGL + random salt) ensures each key works only on device.
 - **Hardcoded expiration** (e.g., 6 months after release) forces users to update, breaking old copies.
 - **No data collected** – all processing happens locally or via the Groq API (quizzes) and your license server.
 

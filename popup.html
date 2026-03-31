@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=UTF-8>
+<style>*{margin:0;padding:0;box-sizing:border-box}body{width:360px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;background:#0a0a0f}.container{background:linear-gradient(145deg,#0f0f14 0,#08080c 100%);padding:20px}#license-screen{animation:fadeInUp .5s cubic-bezier(.2,.9,.4,1.1)}#license-screen .header{text-align:center;margin-bottom:32px}.logo-wrapper{width:80px;height:80px;background:linear-gradient(135deg,#1e1a3a,#0f0f1a);border-radius:28px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;box-shadow:0 12px 28px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.05);border:1px solid rgba(139,92,246,.4);position:relative;transition:all .3s ease}.logo-wrapper::before{content:'';position:absolute;inset:-2px;background:linear-gradient(135deg,#8b5cf6,#6366f1,#a855f7);border-radius:30px;opacity:0;transition:opacity .3s ease;z-index:-1}.logo-wrapper:hover::before{opacity:.6}.logo-wrapper span{font-size:38px}.logo-wrapper img{width:52px;height:52px;object-fit:contain}h1{font-size:1.6rem;font-weight:700;background:linear-gradient(135deg,#fff,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:6px;letter-spacing:-.5px}.greeting{font-size:.75rem;color:#6b7280;margin-top:4px}.login-card{background:rgba(18,18,23,.8);backdrop-filter:blur(8px);border-radius:24px;padding:24px 20px;border:1px solid rgba(139,92,246,.2);margin-bottom:16px}.input-group{margin-bottom:20px}.input-label{display:flex;align-items:center;gap:8px;font-size:.7rem;font-weight:600;color:#9ca3af;margin-bottom:8px;letter-spacing:.5px;text-transform:uppercase}.input-label span{font-size:14px}.input-field{width:100%;padding:14px 16px;background:#121217;border:1.5px solid #2a2a35;border-radius:16px;color:#e2e8f0;font-family:monospace;font-size:.85rem;transition:all .2s}.input-field:focus{outline:0;border-color:#8b5cf6;box-shadow:0 0 0 3px rgba(139,92,246,.15);background:#18181f}.input-field::placeholder{color:#4a4a55;font-family:monospace;font-size:.75rem}.action-buttons{display:flex;flex-direction:column;gap:12px;margin-top:8px}.btn-login{width:100%;padding:14px;background:linear-gradient(135deg,#8b5cf6,#6366f1);border:none;border-radius:16px;color:#fff;font-weight:700;font-size:.9rem;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:10px}.btn-login:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(99,102,241,.35)}.btn-outline{width:100%;padding:12px;background:0 0;border:1.5px solid #2d2d3a;border-radius:16px;color:#a78bfa;font-weight:600;font-size:.8rem;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:8px}.btn-outline:hover{border-color:#8b5cf6;background:rgba(139,92,246,.05)}.btn-test{background:0 0;border:1px solid #3b3b4a;color:#94a3b8}.btn-test:hover{border-color:#3b82f6;color:#60a5fa;background:rgba(59,130,246,.05)}.status-container{margin-top:20px;padding:12px;border-radius:14px;text-align:center;font-size:.7rem;transition:all .2s}.status-container.success{background:rgba(16,185,129,.08);color:#34d399;border:1px solid rgba(16,185,129,.2)}.status-container.error{background:rgba(239,68,68,.08);color:#f87171;border:1px solid rgba(239,68,68,.2)}.status-container.info{background:rgba(99,102,241,.08);color:#a78bfa;border:1px solid rgba(139,92,246,.2)}#expiryDisplay{text-align:center}.expiry-info{font-size:.7rem;color:#10b981;margin-top:12px;text-align:center;padding:8px;border-radius:12px;background:rgba(16,185,129,.05)}.expiry-expired{color:#ef4444;text-align:center}.divider-login{display:flex;align-items:center;gap:12px;margin:20px 0 16px}.divider-login::after,.divider-login::before{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,#2d2d3a,transparent)}.divider-login span{font-size:.65rem;color:#5a5a6a;text-transform:uppercase;letter-spacing:1px}#main-ui{animation:fadeInUp .4s ease-out}#main-ui .header{text-align:center;margin-bottom:24px}.logo{width:70px;height:70px;background:linear-gradient(135deg,#1a1a2e,#0f0f1a);border-radius:20px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;box-shadow:0 8px 20px rgba(0,0,0,.5);border:1px solid rgba(139,92,246,.3)}.logo span{font-size:32px}.logo img{width:48px;height:48px;object-fit:contain}.badge{display:inline-block;background:rgba(139,92,246,.15);color:#a78bfa;font-size:.55rem;padding:4px 12px;border-radius:30px;margin-top:10px;border:1px solid rgba(139,92,246,.3)}.button-group{display:flex;flex-direction:column;gap:12px;margin-bottom:20px}.btn{width:100%;padding:14px 16px;border:none;border-radius:16px;font-weight:600;font-size:.9rem;cursor:pointer;transition:all .2s ease;display:flex;align-items:center;justify-content:center;gap:10px}.btn-primary{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;box-shadow:0 4px 12px rgba(99,102,241,.25)}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(99,102,241,.35)}.btn-success{background:linear-gradient(135deg,#10b981,#059669);color:#fff;box-shadow:0 4px 12px rgba(16,185,129,.25)}.btn-success:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(16,185,129,.35)}.mini-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:24px}.mini-actions .btn{padding:10px 12px;font-size:.75rem;background:#121217;border:1px solid #2a2a35;color:#e2e8f0;box-shadow:none}.mini-actions .btn:hover{background:#1a1a23;border-color:#8b5cf6;transform:translateY(-1px)}.mini-actions .btn.full-width{grid-column:1/-1}.divider{display:flex;align-items:center;gap:12px;margin:20px 0 16px}.divider::after,.divider::before{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,#2d2d3a,transparent)}.divider span{font-size:.7rem;color:#6b7280;text-transform:uppercase;letter-spacing:1.5px}.api-section{background:#0c0c12;border-radius:16px;padding:16px;border:1px solid #1e1e28}.api-label{font-size:.75rem;font-weight:600;color:#9ca3af;margin-bottom:10px;display:flex;align-items:center;gap:6px}.api-row{display:flex;gap:8px}.api-row input{flex:1;padding:12px;background:#121217;border:1px solid #2a2a35;border-radius:12px;color:#e2e8f0;font-size:.75rem;font-family:monospace}.api-row input:focus{outline:0;border-color:#8b5cf6}.api-row button{padding:12px 18px;background:#1e1e28;color:#e2e8f0;border:none;border-radius:12px;cursor:pointer;font-size:.7rem;font-weight:500;transition:all .2s}.api-row button:hover{background:#2d2d3a}.status{font-size:.65rem;padding:10px;border-radius:12px;margin-top:12px;text-align:center}.status.success{background:rgba(16,185,129,.08);color:#34d399;border:1px solid rgba(16,185,129,.2)}.status.error{background:rgba(239,68,68,.08);color:#f87171;border:1px solid rgba(239,68,68,.2)}.status.info{background:rgba(99,102,241,.08);color:#a78bfa;border:1px solid rgba(139,92,246,.2)}.link{color:#a78bfa;text-decoration:none}.link:hover{text-decoration:underline}footer{text-align:center;padding-top:16px;margin-top:16px;border-top:1px solid rgba(255,255,255,.05)}.powered-by{font-size:.6rem;color:#6b7280}.powered-by strong{background:linear-gradient(135deg,#a78bfa,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent}@keyframes fadeInUp{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}</style>
+</head>
+<body>
+<div class=container>
+<div id=license-screen>
+<div class=header>
+<div class=logo-wrapper id=login-logo>
+<img src=icons/logo.png style=width:48px;height:48px;object-fit:contain>
+</div>
+<h1>Welcome Back</h1>
+<div class=greeting>Enter your credentials to continue</div>
+</div>
+<div class=login-card>
+<div class=input-group>
+<div class=input-label>
+<span>🔐</span>
+<span>ACTIVATION KEY</span>
+</div>
+<input type=password id=licenseKeyInput class=input-field placeholder="Enter your key">
+</div>
+<div class=action-buttons>
+<button class=btn-login id=verifyLicenseBtn>
+<span>✨</span> Unlock Extension
+</button>
+<button class=btn-outline id=buyKeyBtn>
+<span>⚡</span>Get a Key
+</button>
+<button class="btn-outline btn-test" id=testConnectionBtn>
+<span>🌐</span> Test Connection
+</button>
+</div>
+<div id=licenseStatus class="status-container info">
+Enter your key to unlock the extension.
+</div>
+<div id=expiryDisplay class=expiry-info style=display:none></div>
+</div>
+<div class=divider-login>
+<span>secure activation</span>
+</div>
+</div>
+<div id=main-ui style=display:none>
+<div class=header>
+<div class=logo id=main-logo>
+<img src=icons/logo1.png style=width:42px;height:42px;object-fit:contain>
+</div>
+<h1>Quiz AI Solver</h1>
+<div class=subtitle style=font-size:.7rem;color:#6b7280>Intelligent Quiz Assistant</div>
+<div class=badge>⚡ Powered by Backend </div>
+</div>
+<div id=tier-badge style="text-align:center;font-size:.6rem;padding:4px 8px;border-radius:20px;margin-bottom:12px;font-weight:600"></div>
+<div class=button-group>
+<button class="btn btn-primary" id=solveQuizBtn>
+✨ Solve This Quiz
+</button>
+<button class="btn btn-success" id=solveAllBtn>
+🚀 Solve All Quizzes
+</button>
+</div>
+<div class=mini-actions>
+<button class=btn id=skipVideosBtn>
+🎬 Skip Videos
+</button>
+<button class=btn id=skipReadingsBtn>
+📖 Skip Readings
+</button>
+<button class=btn id=skipDiscussionBtn>
+💬 Skip Discussion
+</button>
+<button class=btn id=skipPluginsBtn>
+🔌 Skip Plugins
+</button>
+<button class="btn full-width" id=shareableLinkBtn>
+🔗 Shareable Link
+</button>
+</div>
+<div class=divider>
+<span>⚙️ Settings</span>
+</div>
+<div class=api-section>
+<div class=api-label>
+🔑 Groq API Key
+</div>
+<div class=api-row>
+<input type=password id=apiKey placeholder="Enter your API key (gsk_...)" autocomplete=off>
+<button id=saveKey>Save</button>
+</div>
+<div class="status info" id=apiStatus>
+🔑 Get free key: <a href=https://console.groq.com/keys target=_blank class=link>console.groq.com/keys</a>
+</div>
+</div>
+<footer>
+<div class=powered-by>Powered by <strong>Mulga </strong> ✨</div>
+<div style=margin-top:12px>
+<button id=logoutBtn style="background:0 0;border:none;color:#6b7280;font-size:.6rem;cursor:pointer;text-decoration:underline">🚪 Logout</button>
+</div>
+</footer>
+</div>
+</div>
+<script src=popup.js></script>
+</body>
+</html>

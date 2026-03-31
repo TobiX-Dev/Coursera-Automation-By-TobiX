@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=UTF-8>
+<title>Settings - Quiz AI Solver</title>
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,sans-serif;background:#0a0a0f;color:#e2e8f0;padding:32px 24px;min-height:100vh;display:flex;justify-content:center;align-items:center}.container{max-width:480px;width:100%;background:#0f0f14;border-radius:24px;padding:28px;border:1px solid rgba(255,255,255,.05)}h1{font-size:1.5rem;font-weight:700;background:linear-gradient(135deg,#fff,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}.subtitle{font-size:.8rem;color:#6b7280;margin-bottom:28px}.section{background:rgba(255,255,255,.03);border-radius:16px;padding:20px;margin-bottom:20px;border:1px solid rgba(255,255,255,.05)}.section-title{font-size:.7rem;text-transform:uppercase;letter-spacing:1px;color:#9ca3af;margin-bottom:16px}.field{margin-bottom:16px}.field label{display:block;font-size:.75rem;font-weight:500;color:#9ca3af;margin-bottom:6px}.field input{width:100%;padding:12px;background:#1a1a23;border:1px solid #2d2d3a;border-radius:12px;color:#e2e8f0;font-size:.8rem;font-family:monospace}.field input:focus{outline:0;border-color:#8b5cf6}.field-note{font-size:.65rem;color:#6b7280;margin-top:6px}.field-note a{color:#a78bfa;text-decoration:none}.btn{width:100%;padding:12px;background:linear-gradient(135deg,#6366f1,#8b5cf6);border:none;border-radius:12px;color:#fff;font-weight:600;font-size:.85rem;cursor:pointer;transition:all .2s}.btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(99,102,241,.4)}.status{margin-top:12px;padding:10px;border-radius:10px;text-align:center;font-size:.7rem}.status.success{background:rgba(16,185,129,.1);color:#34d399}.footer{text-align:center;margin-top:20px;font-size:.65rem;color:#6b7280}.footer strong{background:linear-gradient(135deg,#a78bfa,#c084fc);-webkit-background-clip:text;-webkit-text-fill-color:transparent}</style>
+</head>
+<body>
+<div class=container>
+<h1>⚙️ Settings</h1>
+<div class=subtitle>Configure your API key for AI-powered quiz solving</div>
+<div class=section>
+<div class=section-title>🔑 API Configuration</div>
+<div class=field>
+<label>API Key</label>
+<input type=password id=apiKey placeholder="Enter your API key (starts with gsk_)">
+<div class=field-note>
+Get your free API key from <a href=https://console.groq.com/keys target=_blank>console.groq.com/keys</a>
+</div>
+</div>
+<button class=btn id=saveBtn>Save API Key</button>
+<div id=status class=status style=display:none></div>
+</div>
+<div class=section>
+<div class=section-title>📌 About</div>
+<div class=field-note style=margin-bottom:8px>
+<strong>FTier:</strong> All Quiz requests/minute.
+</div>
+<div class=field-note>
+<strong>Supported Models:</strong> Mixtral, Llama 3.3, and more
+</div>
+</div>
+<div class=footer>
+Powered by <strong>Mulga </strong> ✨
+</div>
+</div>
+<script src=options.js></script>
+</body>
+</html>

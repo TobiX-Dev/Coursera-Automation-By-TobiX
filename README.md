@@ -16,8 +16,8 @@
 | 🔌 **Skip Plugins** | Automatically complete ungraded plugins (e.g., surveys). |
 | 🤖 **Quiz Solver** | AI‑powered answers for single‑choice, multiple‑select, and text‑input questions (requires Groq API key). |
 | 🔗 **Shareable Link** | Generate a review link for peer‑graded assignments (copy to clipboard). |
-| 🔒 **Premium Security** | Device fingerprinting, daily verification limit, and hardcoded expiration to prevent abuse. |
-| 🔓 **Free Tier** | Basic skip features available for everyone. |
+| 🔒 **Security** | Easy Bypass. |
+| 🔓 **Free ** | skip features available for everyone. |
 
 ## 🚀 Installation
 
@@ -34,14 +34,14 @@
 - Click **“Skip Videos”**, **“Skip Readings”**, **“Skip Discussions”**, or **“Skip Plugins”** on any Coursera course page.
 - Wait a few seconds – the items will be marked as completed. Refresh the page to see the checkmarks.
 
-### Quiz Solver (Premium)
+### Quiz Solver 
 1. **Get a Groq API key** from [console.groq.com/keys](https://console.groq.com/keys) (free tier available).
 2. **Enter the key** in the extension popup (Settings section) and save.
 3. **Open a quiz** on Coursera.
 4. **Click “Solve This Quiz”** in the popup.
 5. The extension will fill the answers automatically. Confirm submission when prompted.
 
-### Shareable Link (Premium)
+### Shareable Link
 1. **Go to the submission page** of a peer‑graded assignment (URL contains `/submit`).
 2. **Click “Shareable Link”** in the extension popup.
 3. The link is copied to your clipboard. Share it with your reviewer.
@@ -54,7 +54,6 @@
 ## 🔒 Security & Privacy
 
 - **Device fingerprinting** (canvas + WebGL + random salt) ensures each key works only on one device.
-- **Daily verification limit** (10 checks per day) prevents abuse.
 - **Hardcoded expiration** (e.g., 6 months after release) forces users to update, breaking old copies.
 - **No data collected** – all processing happens locally or via the Groq API (quizzes) and your license server.
 
@@ -64,9 +63,6 @@
 1. Clone the repository.
 2. Load the unpacked extension in Chrome (as above).
 3. Modify `popup.js`, `content.js`, etc. and reload the extension to test.
-
-### Obfuscation
-For release, obfuscate the JavaScript files using [JavaScript Obfuscator](https://obfuscator.io/) with high settings (enable self‑defending, debug protection, control flow flattening). Minify `popup.html` using [HTMLMinifier](https://kangax.github.io/html-minifier/).
 
 ## 📜 License
 
@@ -78,7 +74,7 @@ This tool is for **educational purposes only**. The developer is not responsible
 
 ## 🙏 Support
 
-- **Buy a license** to support development and get premium features.
+- **Support** to support development .
 - **Report issues** on GitHub.
 - **Star the repo** if you find it useful!
 

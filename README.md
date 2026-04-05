@@ -1,6 +1,6 @@
 # Coursera Auto-Complete Extension
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
+![Version](https://img.shields.io/badge/version-1.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Chrome](https://img.shields.io/badge/chrome-extension-4c8bf5)
 

@@ -74,7 +74,7 @@ This tool is for **educational purposes only**. The developer is not responsible
 
 ## 🙏 Support
 
-- **Support** to support development .
+- **Support** to support Just Give A Star Repo .
 - **Report issues** on GitHub.
 - **Star the repo** if you find it useful!
 

@@ -6,6 +6,8 @@
 
 **Automatically complete Coursera courses** with one click. Skip videos, readings, discussions, plugins, and even solve quizzes using AI. Get shareable links for peer‑graded assignments. Premium security with device binding, daily limits, and hard expiration.
 
+How To Use 01- https://www.youtube.com/watch?v=XOVu4_2hMsY
+
 ## ✨ Features
 
 | Feature | Description |

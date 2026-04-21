@@ -1,84 +1,141 @@
-# Coursera Auto-Complete Extension
+<div align="center">
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Chrome](https://img.shields.io/badge/chrome-extension-4c8bf5)
+<img src="icons/icon128.png" width="90" alt="Coursera Solver Logo" />
 
-**Automatically complete Coursera courses** with one click. Skip videos, readings, discussions, plugins, and even solve quizzes using AI. Get shareable links for peer‑graded assignments. Premium security with device binding, daily limits, and hard expiration.
+# Coursera Solver — by T🍀
 
-How To Use 01- (https://jumpshare.com/share/ulq0yELMIRACD0YUX67E)
+**The smartest Coursera automation tool. AI-powered quiz solving, video skipping, and full course completion — all in one click.**
+
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4c8bf5?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/TobiX-Dev/Coursera-Automation-By-TobiX)
+[![Status](https://img.shields.io/badge/Status-Working-10b981?style=flat-square)](https://quizsolver.infinityfreeapp.com/coursera_license/status.php)
+[![Groq AI](https://img.shields.io/badge/Powered%20by-Groq%20AI-a855f7?style=flat-square)](https://console.groq.com)
+[![Stars](https://img.shields.io/github/stars/TobiX-Dev/Coursera-Automation-By-TobiX?style=flat-square&color=fbbf24)](https://github.com/TobiX-Dev/Coursera-Automation-By-TobiX/stargazers)
+
+</div>
+
+---
 
 ## ✨ Features
 
-| Feature | Description |
-|---------|-------------|
-| 🎬 **Skip Videos** | Mark all video lectures as completed instantly. |
-| 📖 **Skip Readings** | Complete all reading materials in one go. |
-| 💬 **Skip Discussions** | Post a dummy reply to mark discussions as done. |
-| 🔌 **Skip Plugins** | Automatically complete ungraded plugins (e.g., surveys). |
-| 🤖 **Quiz Solver** | AI‑powered answers for single‑choice, multiple‑select, and text‑input questions (requires Groq API key). |
-| 🔗 **Shareable Link** | Generate a review link for peer‑graded assignments (copy to clipboard). |
-| 🔒 **Security** | Easy Bypass. |
-| 🔓 **Free ** | skip features available for everyone. |
+| Feature | What it does | Status |
+|---|---|---|
+| 🤖 **Auto Solve Quiz** | Sends questions to Groq's Llama 3.3 70B — fills every answer automatically | ✅ Working |
+| 🚀 **Solve All Quizzes** | Pipeline mode — finds, navigates, solves, and submits every quiz in the course | ✅ Working |
+| 🎬 **Skip Videos** | Marks all lecture videos as watched via Coursera API — no playback needed | ✅ Working |
+| 📖 **Skip Readings** | Completes all reading supplements instantly | ✅ Working |
+| 💬 **Skip Discussions** | Auto-posts a reply to all discussion prompts | ✅ Working |
+| 🔌 **Skip Plugins** | Marks ungraded labs, widgets & notebooks as done | ✅ Working |
+| 🔗 **Shareable Link** | Copies the direct review link for peer assignments | ✅ Working |
+| 📜 **Honor Code** | Auto-checks the honor code checkbox before submission | ✅ Built-in |
+| 👍 **Undetected** | No flags, no bans — works under the radar on any account | ✅ Working |
+
+---
 
 ## 🚀 Installation
 
-1. **Download the latest release** from [GitHub Releases](https://github.com/TobiX-Dev/coursera-auto-complete/releases) or clone this repository.
-2. **Unzip** the folder.
-3. **Open Chrome** and go to `chrome://extensions/`.
-4. **Enable Developer mode** (toggle in the top right).
-5. **Click “Load unpacked”** and select the extension folder.
-6. The extension icon will appear in the toolbar. Click it to open the popup.
+```
+1. Download or clone this repo
+2. Unzip the folder
+3. Open Chrome → chrome://extensions/
+4. Enable Developer Mode (top right toggle)
+5. Click "Load unpacked" → select the extension folder
+6. Click the extension icon → enter your key → add Groq API key → done ✓
+```
 
-## 🧑‍💻 Usage
+**Get a key →** [quizsolver.infinityfreeapp.com](https://quizsolver.infinityfreeapp.com/coursera_license/buy-key.php)  
+**Get Groq API key (free) →** [console.groq.com/keys](https://console.groq.com/keys)
 
-### Free Features
-- Click **“Skip Videos”**, **“Skip Readings”**, **“Skip Discussions”**, or **“Skip Plugins”** on any Coursera course page.
-- Wait a few seconds – the items will be marked as completed. Refresh the page to see the checkmarks.
+---
 
-### Quiz Solver 
-1. **Get a Groq API key** from [console.groq.com/keys](https://console.groq.com/keys) (free tier available).
-2. **Enter the key** in the extension popup (Settings section) and save.
-3. **Open a quiz** on Coursera.
-4. **Click “Solve This Quiz”** in the popup.
-5. The extension will fill the answers automatically. Confirm submission when prompted.
+## 🧑‍💻 How to Use
 
-### Shareable Link
-1. **Go to the submission page** of a peer‑graded assignment (URL contains `/submit`).
-2. **Click “Shareable Link”** in the extension popup.
-3. The link is copied to your clipboard. Share it with your reviewer.
+### Solve a Single Quiz
+1. Open any Coursera quiz page
+2. Click the extension icon
+3. Hit **"Solve This Quiz"**
+4. The extension fills all answers — confirm submission when prompted ✓
 
-### Activate Premium License
-1. **Obtain a license key** (contact the developer or purchase from the link inside the popup).
-2. **Click “Unlock Extension”** and enter the key.
-3. The extension will verify the key and activate premium features.
+### Solve All Quizzes in a Course
+1. Go to the **Assignments** or **Grades** page of a course
+2. Click the extension icon
+3. Hit **"Solve All Quizzes"**
+4. Sit back — it navigates, solves, and submits every quiz automatically 🚀
 
-## 🔒 Security & Privacy
+### Skip Everything
+- Click **Skip Videos / Readings / Discussions / Plugins** on any course page
+- Items are marked complete in seconds — refresh to see checkmarks ✓
 
-- **Device fingerprinting** (canvas + WebGL + random salt) ensures each key works only on device.
-- **Hardcoded expiration** (e.g., 6 months after release) forces users to update, breaking old copies.
-- **No data collected** – all processing happens locally or via the Groq API (quizzes) and your license server.
+### Shareable Peer Link
+1. Go to a peer assignment submission page (`/submit`)
+2. Click **"Shareable Link"** in the popup
+3. Link is copied to clipboard — share with your reviewer ✓
 
-## 🛠️ Development
+---
 
-### Build from source
-1. Clone the repository.
-2. Load the unpacked extension in Chrome (as above).
-3. Modify `popup.js`, `content.js`, etc. and reload the extension to test.
+## 📹 Demo Video
 
-## 📜 License
+> **How to embed a video directly in README (not a link):**
+>
+> GitHub does **not** support playing MP4/video files inline in markdown.  
+> The best approach is:
+> 1. **Upload your `.mp4` to the repo** (drag & drop in GitHub UI)
+> 2. GitHub auto-converts it and embeds it as a playable player — just paste the URL it gives you like this:
+>
+> ```
+> https://github.com/TobiX-Dev/Coursera-Automation-By-TobiX/assets/YOUR_ID/your-video.mp4
+> ```
+>
+> Then place it in the README like:
+> ```html
+> <video src="https://github.com/...your-video.mp4" controls width="100%"></video>
+> ```
+> GitHub renders this as a real video player — no external links needed.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+<!-- Replace the block above with your actual video once uploaded -->
+
+---
+
+## 🛠️ Setup — Groq API Key
+
+The quiz solver uses **Groq's free Llama 3.3 70B** model.
+
+1. Go to [console.groq.com/keys](https://console.groq.com/keys)
+2. Create a free account → generate an API key
+3. Paste it in the extension popup under **⚙ Settings → Groq API Key** → Save
+
+No cost. No limits for normal usage.
+
+---
+
+## 🔮 Coming Soon
+
+- [ ] 🎯 Auto-detect and skip all content types in one click
+- [ ] 📊 Course progress tracker inside the popup
+- [ ] 🌐 Support for Coursera for Teams / Enterprise
+- [ ] 🔄 Auto-retry on failed quiz submissions
+- [ ] 🌍 Multi-language quiz support
+
+---
+
+## 🙏 Support the Project
+
+If this saved you time, a ⭐ on GitHub means everything — it keeps the project alive and helps others find it.
+
+[![Star on GitHub](https://img.shields.io/badge/⭐%20Star%20on%20GitHub-fbbf24?style=for-the-badge&logo=github&logoColor=black)](https://github.com/TobiX-Dev/Coursera-Automation-By-TobiX)
+
+- 🐛 **Found a bug?** Open an [issue](https://github.com/TobiX-Dev/Coursera-Automation-By-TobiX/issues)
+- 💬 **Questions?** Ask in [Discussions](https://github.com/TobiX-Dev/Coursera-Automation-By-TobiX/discussions)
+
+---
 
 ## ⚠️ Disclaimer
 
-This tool is for **educational purposes only**. The developer is not responsible for any misuse or violation of Coursera’s terms of service. Use at your own risk.
-
-## 🙏 Support
-
-- **Support** to support Just Give A Star Repo .
-- **Report issues** on GitHub.
-- **Star the repo** if you find it useful!
+This tool is for **educational and personal use only**. The developer is not responsible for any misuse or violation of Coursera's Terms of Service. Use at your own risk.
 
 ---
-**Made with ❤️ by TobiX**
+
+<div align="center">
+
+**Made with ❤️ by [TobiX-Dev](https://github.com/TobiX-Dev)**
+
+</div>

@@ -2,7 +2,7 @@
 
 <img src="icons/icon128.png" width="90" alt="Coursera Solver Logo" />
 
-# Coursera Solver — by T🍀
+# Coursera Solver Free — by T🍀
 
 Demo Video = https://jumpshare.com/share/ulq0yELMIRACD0YUX67E
 

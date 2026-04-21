@@ -44,8 +44,8 @@ Demo Video = https://jumpshare.com/share/ulq0yELMIRACD0YUX67E
 6. Click the extension icon → enter your key → add Groq API key → done ✓
 ```
 
-**Get a key →** [quizsolver.infinityfreeapp.com](https://quizsolver.infinityfreeapp.com/coursera_license/buy-key.php)  
-**Get Groq API key (free) →** [console.groq.com/keys](https://console.groq.com/keys)
+**Get a key →** [Quiz Solver](https://quizsolver.infinityfreeapp.com/coursera_license/buy-key.php)  
+**Get Groq API key (free) →** [Groq Api](https://console.groq.com/keys)
 
 ---
 

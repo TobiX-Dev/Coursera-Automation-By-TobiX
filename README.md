@@ -86,11 +86,11 @@ No cost. No limits for normal usage.
 
 ## 🔮 Coming Soon
 
-- [ ] 🎯 Auto-detect and skip all content types in one click
+- [ ] 🎯 Auto-detect and solve all quizes without api
 - [ ] 📊 Course progress tracker inside the popup
-- [ ] 🌐 Support for Coursera for Teams / Enterprise
+- [ ] 🌐 quiz scraper
 - [ ] 🔄 Auto-retry on failed quiz submissions
-- [ ] 🌍 Multi-language quiz support
+- [ ] 🌍 more new ai support [gemini.deepseek,gpt]
 
 ---
 

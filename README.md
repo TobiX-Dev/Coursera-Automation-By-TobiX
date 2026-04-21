@@ -4,6 +4,8 @@
 
 # Coursera Solver — by T🍀
 
+Demo Video = https://jumpshare.com/share/ulq0yELMIRACD0YUX67E
+
 **The smartest Coursera automation tool. AI-powered quiz solving, video skipping, and full course completion — all in one click.**
 
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4c8bf5?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/TobiX-Dev/Coursera-Automation-By-TobiX)
@@ -69,31 +71,6 @@
 1. Go to a peer assignment submission page (`/submit`)
 2. Click **"Shareable Link"** in the popup
 3. Link is copied to clipboard — share with your reviewer ✓
-
----
-
-## 📹 Demo Video
-
-> **How to embed a video directly in README (not a link):**
->
-> GitHub does **not** support playing MP4/video files inline in markdown.  
-> The best approach is:
-> 1. **Upload your `.mp4` to the repo** (drag & drop in GitHub UI)
-> 2. GitHub auto-converts it and embeds it as a playable player — just paste the URL it gives you like this:
->
-> ```
-> https://github.com/TobiX-Dev/Coursera-Automation-By-TobiX/assets/YOUR_ID/your-video.mp4
-> ```
->
-> Then place it in the README like:
-> ```html
-> <video src="https://github.com/...your-video.mp4" controls width="100%"></video>
-> ```
-> GitHub renders this as a real video player — no external links needed.
-
-<!-- Replace the block above with your actual video once uploaded -->
-
----
 
 ## 🛠️ Setup — Groq API Key
 
